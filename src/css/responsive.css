@@ -1,0 +1,35 @@
+@media screen and (max-width: 800px) {
+    .logo .titulo{
+        font-size: 40px;
+    }
+
+    .selecao-de-personagem .lista-de-personagens{
+        max-width: 330px;
+    }
+
+    .selecao-de-personagem .lista-de-personagens .personagem{
+        width: 100px;
+        height: 100px;
+    }
+
+    .selecao-de-personagens .personagem-grande{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main{
+        padding: 0 5px;
+        justify-content: start;
+    }
+
+    .logo .titulo{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo .titulo{
+        font-size: 16px;
+    }
+}

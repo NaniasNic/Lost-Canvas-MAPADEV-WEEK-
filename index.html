@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <!--Titulo-->
+    <title>Lost Canvas</title>
+
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links-->
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/animacoes.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <!--Logo-->
+        <header class="logo">
+            <h1 class="titulo">
+                Character Select
+            </h1>
+        </header>
+
+        <div class="selecao-de-personagens">
+            <!--Jogador °1-->
+            <div class="personagem-grande personagem-p-1">
+                <img src="./src/imagens/tenma.png" alt="Personagem Selecionado Jogador 1"
+                id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Tenma</h2>
+                </div>
+            </div>
+            
+            <!--Lista de Seleção-->
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="tenma" data-name="Tenma">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/tenma.jfif" alt="Personagem Tenma">
+                </li>
+                
+                <li class="personagem" id="yato" data-name="Yato">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/yato-.jfif" alt="Personagem Yato">
+                </li>
+
+                <li class="personagem" id="yuzuriha" data-name="Yuzuriha">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/yuzuriha.jfif" alt="Personagem Yuzuriha">
+                </li>
+
+                <li class="personagem" id="dohko" data-name="Dohko">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Dohko-.jfif" alt="Personagem Dohko">
+                </li>
+
+                <li class="personagem" id="asmita" data-name="Asmita">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/asmita-perfil.jfif" alt="Personagem Asmita">
+                </li>
+
+                <li class="personagem" id="albafica" data-name="Albafica">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Albafica-perfil.jfif" alt="Personagem Albafica">
+                </li>
+
+                <li class="personagem" id="manigold" data-name="Manigold">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/manigold-perfil.png" alt="Personagem Manigold">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="minos" data-name="Minos">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/minos-perfil.jfif" alt="Personagem Minos">
+                </li>
+
+                <li class="personagem" id="divino" data-name="Divino">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Divino.jfif" alt="Personagem Divino-Tenma">
+                </li>
+            </ul>
+
+            <!--Jogador °2-->
+            <div class="personagem-grande personagem-p-2">
+                <img src="./src/imagens/minos.png" alt="Personagem Selecionado Jogador 2"
+                id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Minos</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Scripts-->
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
